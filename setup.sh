@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # initialize venv
-python3 -m venv venv 
+python3 -m venv .env 
 
 # activate venv
-source ./venv/bin/activate
+source .env/bin/activate

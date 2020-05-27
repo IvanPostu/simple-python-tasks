@@ -2,14 +2,19 @@
   // Use IntelliSense to learn about possible attributes.
   // Hover to view descriptions of existing attributes.
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+
   "version": "0.2.0",
   "configurations": [
-    {
-      "name": "Python: Main File",
-      "type": "python",
-      "request": "launch",
-      "program": "${workspaceFolder}/project/main/main.py",
-      "console": "integratedTerminal"
-    }
+      {
+          "name": "Python: Main File",
+          "type": "python",
+          "request": "launch",
+          "stopOnEntry": false,
+          "program": "${workspaceFolder}/project/main/main.py",
+          "console": "externalTerminal",
+          "cwd": "${workspaceRoot}",
+          "env": {},
+          "envFile": "${workspaceRoot}/.env"
+      }
   ]
 }

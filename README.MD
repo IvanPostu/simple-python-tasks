@@ -6,7 +6,7 @@ https://www.codementor.io/@ilyaas97/6-python-projects-for-beginners-yn3va03fs
 
 ## Completed tasks: 1
 - [x] Guess The Number
-- [ ] Rock, Paper, Scissors Game
+- [x] Rock, Paper, Scissors Game
 - [ ] Generating a sine vs cosine curve
 - [ ] Password Generator
 - [ ] Hangman
