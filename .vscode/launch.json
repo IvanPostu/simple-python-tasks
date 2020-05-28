@@ -10,7 +10,7 @@
           "type": "python",
           "request": "launch",
           "stopOnEntry": false,
-          "program": "${workspaceFolder}/project/main/main.py",
+          "program": "${workspaceFolder}/project/main.py",
           "console": "externalTerminal",
           "cwd": "${workspaceRoot}",
           "env": {},

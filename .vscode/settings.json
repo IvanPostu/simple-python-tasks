@@ -1,6 +1,7 @@
 {
   "python.autoComplete.extraPaths": [
-     "./project/main"
+     "./project",
+     "./.env/lib/python3.7/site-packages"
   ],
   "python.envFile": "${workspaceRoot}/.env",
   "python.pythonPath": "/home/ivan/PROJECTS/simple-python-tasks/.env/bin/python3",
@@ -14,6 +15,9 @@
       "editor.insertSpaces": true,
       "editor.formatOnSave": true
   },
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+//   "python.testing.pytestPath": "pytest",
 
   "eslint.workingDirectories": ["./frontend", "."],
   "editor.codeActionsOnSave": {
@@ -26,7 +30,8 @@
     "**/.git/objects/**": true,
     "**/.git/subtree-cache/**": true,
     "**/node_modules/*/**": true,
-    "**/__pycache__": true
+    "**/__pycache__": true,
+    "**/.mypy_cache": true,
   },
   "files.watcherExclude": {
     "**/.git/objects/**": true,
@@ -47,7 +52,7 @@
   "editor.codeLens": false,
   "editor.cursorBlinking": "smooth",
   "editor.cursorStyle": "line",
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "editor.fontFamily": "Fira Code Medium",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": false,
@@ -93,5 +98,7 @@
         }
       }
     ]
-  }, 
+},
+
+
 }
