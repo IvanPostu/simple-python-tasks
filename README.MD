@@ -8,7 +8,7 @@ https://www.codementor.io/@ilyaas97/6-python-projects-for-beginners-yn3va03fs
 - [x] Guess The Number
 - [x] Rock, Paper, Scissors Game
 - [x] Generating a sine vs cosine curve
-- [ ] Password Generator
+- [x] Password Generator
 - [ ] Hangman
 - [ ] Binary Search Algorithm
 
@@ -34,3 +34,6 @@ Create a random list of numbers between 0 and 100 with a difference of 2 between
 
 #### Sine and cosine curve:
 ![](./readme_imgs/sin_and_cos_curve.png "")
+
+#### Password generator:
+![](./readme_imgs/passw-manager.png "")
