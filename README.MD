@@ -4,13 +4,13 @@ Site with tasks:
 https://www.codementor.io/@ilyaas97/6-python-projects-for-beginners-yn3va03fs
 
 
-## Completed tasks: 1
+## Completed tasks: 5/6
 - [x] Guess The Number
 - [x] Rock, Paper, Scissors Game
 - [x] Generating a sine vs cosine curve
 - [x] Password Generator
 - [ ] Hangman
-- [ ] Binary Search Algorithm
+- [x] Binary Search Algorithm
 
 ### Guess The Number
 Write a programm where the computer randomly generates a number between 0 and 20. The user needs to guess what the number is. If the user guesses wrong, tell them their guess is either too high, or too low. This will get you started with the random library if you haven't already used it.
@@ -37,3 +37,6 @@ Create a random list of numbers between 0 and 100 with a difference of 2 between
 
 #### Password generator:
 ![](./readme_imgs/passw-manager.png "")
+
+#### Binary search:
+![](./readme_imgs/b_search.png "")

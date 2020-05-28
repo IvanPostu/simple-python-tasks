@@ -32,6 +32,7 @@
     "**/node_modules/*/**": true,
     "**/__pycache__": true,
     "**/.mypy_cache": true,
+    "**/.pytest_cache": true,
   },
   "files.watcherExclude": {
     "**/.git/objects/**": true,
