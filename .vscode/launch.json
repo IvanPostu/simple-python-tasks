@@ -11,7 +11,7 @@
           "request": "launch",
           "stopOnEntry": false,
           "program": "${workspaceFolder}/project/main.py",
-          "console": "externalTerminal",
+          "console": "integratedTerminal",
           "cwd": "${workspaceRoot}",
           "env": {},
           "envFile": "${workspaceRoot}/.env"
