@@ -49,4 +49,6 @@ def password_manager():
             letters_count, numbers_count, symbols_count)
         generated_password = pass_gen.generate()
         print('Generated password: ' + generated_password)
-        break
+        print('Try again? [y,n]: ')
+        if(input() != 'y'):
+            break

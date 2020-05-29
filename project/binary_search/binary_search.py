@@ -67,10 +67,14 @@ def binary_search(_list, search_val):
 
 
 def show_binary_search():
-    print('Enter a number between 100 and 200 :  ')
-    search_val = int(input())
-    _list = generate_random_list()
-    if binary_search(_list, search_val):
-        print(f'Your value {search_val} has been founded.')
-    else:
-        print(f'Your value {search_val} not found.')
+    while True:
+        print('Enter a number between 100 and 200 :  ')
+        search_val = int(input())
+        _list = generate_random_list()
+        if binary_search(_list, search_val):
+            print(f'Your value {search_val} has been founded.')
+        else:
+            print(f'Your value {search_val} not found.')
+        print('Try again? [y,n]: ')
+        if(input() != 'y'):
+            break

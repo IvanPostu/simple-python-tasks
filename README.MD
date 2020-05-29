@@ -4,12 +4,12 @@ Site with tasks:
 https://www.codementor.io/@ilyaas97/6-python-projects-for-beginners-yn3va03fs
 
 
-## Completed tasks: 5/6
+## Completed tasks: 6/6
 - [x] Guess The Number
 - [x] Rock, Paper, Scissors Game
 - [x] Generating a sine vs cosine curve
 - [x] Password Generator
-- [ ] Hangman
+- [x] Hangman
 - [x] Binary Search Algorithm
 
 ### Guess The Number
