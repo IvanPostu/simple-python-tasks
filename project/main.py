@@ -3,7 +3,7 @@
 # from sine_vs_cosine_graphic.sine_vs_cosine_graphic import sine_vs_cosine_graphic
 # from password_manager.password_manager import password_manager
 # from binary_search.binary_search import show_binary_search
-from hangman.hangman import hangmen_show
+from hangman.hangman import hangman_show
 
 
 def main():
@@ -12,7 +12,7 @@ def main():
     # sine_vs_cosine_graphic()
     # password_manager()
     # show_binary_search()
-    hangmen_show()
+    hangman_show()
 
 
 if __name__ == '__main__':

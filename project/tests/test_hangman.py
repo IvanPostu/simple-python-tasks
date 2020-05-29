@@ -38,3 +38,15 @@ class TestHangman(unittest.TestCase):
         assert hangman.check_letter('a')
         assert hangman.check_letter('A')
         assert hangman.check_letter('E')
+
+    @patch.object(Hangman, 'extract_random_word_from_file')
+    def test_check_word(self, fake):
+        fake.return_value = 'Weapon'
+        hangman = Hangman()
+        hangman.generate_word()
+        hangman.check_word('Bear')
+
+        assert not hangman.is_finalized()
+
+        hangman.check_word('  WeaPOn  ')
+        assert hangman.is_finalized()

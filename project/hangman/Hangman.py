@@ -72,5 +72,30 @@ class Hangman:
 
         return return_value
 
+    def check_word(self, word):
+        """
+        Args:
+            word - check if this word is equal with self.__current_word
+        Returns:
+            True if is equal
+            False if is not equal
+        Raises:
+            -
+        """
+        formatted_word = word.lower().strip()
+        if formatted_word == self.__current_word:
+            self.__current_status = self.__current_word = formatted_word
+            return True
+        else:
+            return False
+
     def is_finalized(self):
         return not any(i == '*' for i in self.__current_status)
+
+    @property
+    def current_word_status(self):
+        return self.__current_status
+
+    @property
+    def current_word(self):
+        return self.__current_word
